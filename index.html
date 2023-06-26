@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+            <!-- Theme -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile_container grid">
+                <div class="profile_data">
+                    <div class="profile_border">
+                        <div class="profile_perfil">
+                           <img src="assets/img/perfil.png" alt=""> 
+                        </div>
+                    </div>
+
+                    <h2 class="profile_name">Hariharapranav R S</h2>
+                    <h3 class="profile_profession">Full Stack Developer</h3>
+
+                    <ul class="profile_social">
+                        <a href="https://dribbble.com/PranavDesignz" target="_blank" class="profile_social-link">
+                            <i class="ri-dribbble-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hariharapranav-r-s-124195200/" target="_blank" class="profile_social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/hariharapranav" target="_blank" class="profile_social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile_info grid">
+                    <div class="profile_info-group">
+                        <h3 class="profile_info-number">College</h3>
+                        <p class="profile_info-description">
+                            Bannari Amman Institute <br> of Technology 
+                        </p>
+                    </div>
+                    <div class="profile_info-group">
+                        <h3 class="profile_info-number">Native</h3>
+                        <p class="profile_info-description">
+                            Born and Brought up <br> in Tiruppur
+                        </p>
+                    </div>
+                    <div class="profile_info-group">
+                        <h3 class="profile_info-number">Hobbies</h3>
+                        <p class="profile_info-description">
+                            Video Editing <br> Drawing
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile_buttons">
+                    <a download="" href="assets/pdf/Hariharapranav R S-CV.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile_buttons-small">
+                        <a href=""  target="_blank" class="button button_small button_gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                        <a href=""  target="_blank" class="button button_small button_gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters_content">
+                    <button class="filters_button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+
+                    <button class="filters_button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects_content grid filters_active" data-content id="projects">
+                        <article class="projects_card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Angular WebApp</span>
+                                    <h3 class="projects_title">Chillflix</h3>
+                                    <a href="https://chillflix-ae6eb.web.app/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">React WebApp</span>
+                                    <h3 class="projects_title">Pinterest Clone</h3>
+                                    <a href="https://pinterest-clone-c597e.web.app/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">Virtual Website</h3>
+                                    <a href="https://hariharapranav.github.io/Virtual-Website" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">Music Website</h3>
+                                    <a href="https://hariharapranav.github.io/Musiczz/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">Movie Review Website</h3>
+                                    <a href="https://hariharapranav.github.io/Movie-Review-Website/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">Quizy</h3>
+                                    <a href="https://hariharapranav.github.io/Quizy/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">My Portfolio</h3>
+                                    <a href="https://hariharapranav.github.io/Portfolio/" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects_card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects_img">
+
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">Web</span>
+                                    <h3 class="projects_title">EasyPay Banking</h3>
+                                    <a href="https://easypayforu.000webhostapp.com/index.php" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills_content grid" data-content id="skills">
+                        <div class="skills_area">
+                            <h3 class="skills_title">
+                                Frontend
+                            </h3>
+
+                            <div class="skills_box">
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">HTML</h3>
+                                            <span class="skills_level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">CSS</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">JavaScript</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills_group">
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Bootstrap</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Angular</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Git</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills_area">
+                            <h3 class="skills_title">
+                                Backend
+                            </h3>
+
+                            <div class="skills_box">
+                                <div class="skills_group">
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Java</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">PHP</h3>
+                                            <span class="skills_level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">MySQL</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="skills_group">
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Firebase</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills_data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills_name">Node JS</h3>
+                                            <span class="skills_level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer_copy">
+                Made with ❤️ by Pranav
+            </span>  
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
